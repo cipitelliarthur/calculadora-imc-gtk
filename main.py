@@ -4,7 +4,7 @@ altura = float(input('Altura (m): '))
 peso = float(input('Peso (Kg):'))
 imc = peso / (altura ** 2)
 
-print(f'Seu IMC foi de {imc}')
+print(f'Seu IMC foi de {imc:.2f}')
 
 if imc < 16.9:
     print('Muito abaixo do peso')
@@ -20,3 +20,5 @@ elif imc < 39.99:
     print('Obesidade Severa Grau II ')
 elif imc > 40.00:
     print('Obesidade Mórbida Grau III ')
+else:
+    print('\033[1;31m[ERRO]\033[m Valores inválidos')

@@ -1,3 +1,5 @@
+#Ainda falta acrescentar a diferença entre idade e sexo
+
 sexo = str(input('Sexo [M/F]: ')).strip().upper()[0]
 idade = int(input('Idade: '))
 altura = float(input('Altura (m): '))

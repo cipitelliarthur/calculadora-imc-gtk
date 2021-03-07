@@ -1,7 +1,7 @@
 #Ainda falta acrescentar a diferença entre idade e sexo
 
 while True:
-    option = str(input('Quer calcular outro IMC? [S/N]: ')).strip().upper()[0]
+    option = str(input('Quer calcular o IMC? [S/N]: ')).strip().upper()[0]
 
     if option == 'N':
         break
